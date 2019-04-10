@@ -1,4 +1,10 @@
+textarea:focus {
+                outline: 2px solid green;
+}
 
+input:focus {
+              outline: 2px solid green;
+}
 
 #sendmail {
             position: relative;
