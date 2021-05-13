@@ -32,6 +32,7 @@
      {
       echo "<p style= 'background-color:green;color:white;'> Form Received</p>";
      }
+      // echo file_get_contents('file.html');
      else
      {
       echo "<p style='color:red;'> The form has not been sent !</p>";
