@@ -6,15 +6,14 @@
  </head>
  <body>
   <?php
-  //3 line of code to retrieve the form data sent   "post" 
+  // line of code to retrieve the form data sent   "post" 
     $name=$_POST['name'];
     $email=$_POST['email'];
     $mobileno=$_POST['mobileno'];
     $comment=$_POST['comment'];
     
 
-/*creation of the $msg variable and
- supplementally adding  details to it.*/
+/*creation of the $msg variable received E.mail sent*/
     $msg="EMAIL SENT FROM WEBSITE:\r\n " ;
     $msg.="Sender Name: $name\r\n ";
     $msg.="Sender E-mail: $email\r\n ";
